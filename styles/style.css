@@ -1,7 +1,10 @@
-*{
+* {
+    font-family: "Lato", serif;
     font-family: "Open Sans", sans-serif;
+
 }
-.primary-btn{
+
+.primary-btn {
     background-color: #FD6E0A;
     border: 0;
     color: white;
@@ -9,31 +12,47 @@
     font-size: 18px;
     border-radius: 5px;
 }
+.color-primary{
+    color: #FD6E0A;
+}
+
 /* nav styles start here */
 .header {
     padding: 20px 10px;
     background-color: #FFF8F3;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
 }
-span{
-    color: #FD6E0A;
+
+.nav-text {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    
+
 }
-nav > ul{
+
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style-type: none;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
+    font-size: 20px;
+    color:#474747;
+
 }
+
 /* banner starts here */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
 }
