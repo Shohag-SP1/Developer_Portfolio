@@ -8,11 +8,13 @@
     background-color: #FD6E0A;
     border: 0;
     color: white;
-    padding: 5px 10px;
+    padding: 15px 32px;
     font-size: 18px;
     border-radius: 5px;
+    font-weight: 700;
 }
-.color-primary{
+
+.color-primary {
     color: #FD6E0A;
 }
 
@@ -24,19 +26,21 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-text {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    
+
 
 }
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -47,7 +51,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 20px;
-    color:#474747;
+    color: #474747;
 
 }
 
@@ -55,4 +59,23 @@ nav a {
 .banner {
     display: flex;
     justify-content: space-between;
+}
+
+.banner-content h4 {
+    color: var #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-content h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    /* 166.667% */
 }
