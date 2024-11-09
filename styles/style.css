@@ -47,9 +47,9 @@
 .header {
     /* padding: 20px 10px; */
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
 }
 
 nav {
@@ -115,6 +115,7 @@ nav a {
     color: #757575;
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 30px;
     /* 166.667% */
 }
 
